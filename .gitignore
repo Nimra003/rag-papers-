@@ -1,0 +1,7 @@
+.venv/
+.env
+__pycache__/
+data/pdfs/
+data/chunks.json
+data/index.faiss
+data/llm_cache.json

@@ -1,0 +1,9 @@
+sentence-transformers,
+faiss-cpu,
+pypdf,
+pydantic,
+streamlit,
+numpy,
+python-dotenv,
+rank-bm25,
+google-genai

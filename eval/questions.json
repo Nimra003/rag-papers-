@@ -1,0 +1,16 @@
+[
+  {"id": 1, "question": "How many patients made up the combined group used for external validation?", "answerable": true, "paper": "heart_report", "keywords": ["616"], "reference": "616 (293 Hungary + 123 Switzerland + 200 VA Long Beach)"},
+  {"id": 2, "question": "What share of the Swiss patients had heart disease?", "answerable": true, "paper": "heart_report", "keywords": ["93.5"], "reference": "93.5%"},
+  {"id": 3, "question": "Which two features were dropped when the SHAP-guided pruning was applied?", "answerable": true, "paper": "heart_report", "keywords": ["cp_atypical_angina", "sex_male"], "reference": "cp_atypical_angina and sex_Male"},
+  {"id": 4, "question": "How many predictors ended up in the final model after all selection stages?", "answerable": true, "paper": "heart_report", "keywords": ["11 features", "11-feature", "11 medically", "11 clinically"], "reference": "11"},
+  {"id": 5, "question": "Which regularization setting did the best logistic regression model use?", "answerable": true, "paper": "heart_report", "keywords": ["L2 penalty"], "reference": "L2 penalty with C = 1"},
+  {"id": 6, "question": "What temperature was fitted for the decision tree, and what does that say about it?", "answerable": true, "paper": "heart_report", "keywords": ["2.10"], "reference": "T* = 2.10, meaning strong overconfidence"},
+  {"id": 7, "question": "What fraction of the encoded variables differed significantly between the training site and the external sites?", "answerable": true, "paper": "heart_report", "keywords": ["15/28", "15 out of 28"], "reference": "15 of 28 (53.6%)"},
+  {"id": 8, "question": "How many samples were held out solely to tune the temperature parameter?", "answerable": true, "paper": "heart_report", "keywords": ["n = 46", "calibration split"], "reference": "46 (the 15% calibration split)"},
+  {"id": 9, "question": "Why is turning the disease label into a yes/no label listed as a limitation?", "answerable": true, "paper": "heart_report", "keywords": ["prognostic nuance"], "reference": "It discards the 5-level severity information and may misclassify borderline cases"},
+  {"id": 10, "question": "Which techniques are suggested for dealing with covariate shift in future work?", "answerable": true, "paper": "heart_report", "keywords": ["KLIEP"], "reference": "Importance reweighting (e.g. KLIEP, uLSIF) or adversarial feature alignment"},
+  {"id": 11, "question": "What ROC-AUC did logistic regression achieve on external data?", "answerable": true, "paper": "heart_report", "keywords": ["0.852"], "reference": "0.852"},
+  {"id": 12, "question": "Who won the 2022 FIFA World Cup?", "answerable": false},
+  {"id": 13, "question": "What is the recommended daily aspirin dose for preventing a first heart attack?", "answerable": false},
+  {"id": 14, "question": "How much did it cost in US dollars to train the models?", "answerable": false}
+]
