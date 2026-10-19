@@ -10,7 +10,52 @@
   {"id": 9, "question": "Why is turning the disease label into a yes/no label listed as a limitation?", "answerable": true, "paper": "heart_report", "keywords": ["prognostic nuance"], "reference": "It discards the 5-level severity information and may misclassify borderline cases"},
   {"id": 10, "question": "Which techniques are suggested for dealing with covariate shift in future work?", "answerable": true, "paper": "heart_report", "keywords": ["KLIEP"], "reference": "Importance reweighting (e.g. KLIEP, uLSIF) or adversarial feature alignment"},
   {"id": 11, "question": "What ROC-AUC did logistic regression achieve on external data?", "answerable": true, "paper": "heart_report", "keywords": ["0.852"], "reference": "0.852"},
-  {"id": 12, "question": "Who won the 2022 FIFA World Cup?", "answerable": false},
-  {"id": 13, "question": "What is the recommended daily aspirin dose for preventing a first heart attack?", "answerable": false},
-  {"id": 14, "question": "How much did it cost in US dollars to train the models?", "answerable": false}
+  {"id": 12, "question": "Who won the 2022 FIFA World Cup?", "answerable": false, "reference": ""},
+  {"id": 13, "question": "What is the recommended daily aspirin dose for preventing a first heart attack?", "answerable": false, "reference": ""},
+  {"id": 14, "question": "How much did it cost in US dollars to train the models?", "answerable": false, "reference": ""},
+
+  {"id": 15, "question": "After the authors removed outliers from the 70,000-record cardiovascular dataset, how many rows were left?", "answerable": true, "paper": "algorithms", "keywords": ["57,155"], "reference": "57,155 rows"},
+  {"id": 16, "question": "Which classifier reached the highest cross-validated accuracy in the k-modes study, and what was the value?", "answerable": true, "paper": "algorithms", "keywords": ["87.28"], "reference": "The multilayer perceptron with cross-validation, 87.28%"},
+  {"id": 17, "question": "What number of clusters did the elbow method pick for both the male and the female data?", "answerable": true, "paper": "algorithms", "keywords": ["located at 2.0"], "reference": "2 clusters (knee point at 2.0)"},
+
+  {"id": 18, "question": "How many filters do the two convolutional layers of the interpretable heart disease CNN use?", "answerable": true, "paper": "biomedical", "keywords": ["64 and 128"], "reference": "64 and 128 filters"},
+  {"id": 19, "question": "By what amount did Gaussian-noise augmentation enlarge the CNN training set?", "answerable": true, "paper": "biomedical", "keywords": ["242 to 484"], "reference": "From 242 to 484 samples"},
+  {"id": 20, "question": "According to the confusion matrix analysis of the CNN, how many heart patients were wrongly labelled healthy?", "answerable": true, "paper": "biomedical", "keywords": ["False Negatives: 4"], "reference": "4 false negatives"},
+
+  {"id": 21, "question": "How many publications did the survey finally select for its primary review?", "answerable": true, "paper": "Comprehensive-survey", "keywords": ["total of 58 publications"], "reference": "58 publications"},
+  {"id": 22, "question": "How many instances does the combined comprehensive heart disease dataset from IEEE Data Port contain?", "answerable": true, "paper": "Comprehensive-survey", "keywords": ["1190 occurrences"], "reference": "1190 instances with 11 features"},
+  {"id": 23, "question": "In the survey's SMOTE example with 90 healthy and 10 diseased samples, what happens to the minority count?", "answerable": true, "paper": "Comprehensive-survey", "keywords": ["from 10 to 90"], "reference": "It is increased from 10 to 90 so each class has 90 samples"},
+
+  {"id": 24, "question": "Which classifier gave the best accuracy in the WEKA-based study, and what neighbour count did it use?", "answerable": true, "paper": "HDP using ML", "keywords": ["k = 7"], "reference": "K-nearest neighbour with k = 7"},
+  {"id": 25, "question": "Which tool did these authors use to pre-process the data, and in what file format was the data?", "answerable": true, "paper": "HDP using ML", "keywords": ["ARFF"], "reference": "WEKA, with the data in ARFF format"},
+  {"id": 26, "question": "How many of the available attributes in the Cleveland data did this study analyse?", "answerable": true, "paper": "HDP using ML", "keywords": ["Only 14 attributes of all 76"], "reference": "14 of the 76 attributes"},
+
+  {"id": 27, "question": "How many neurons sit in the input, hidden and output layers of the neural network in the prediction system built with C and C#?", "answerable": true, "paper": "HDPS", "keywords": ["13 neurons, 6 neurons"], "reference": "13 input, 6 hidden and 2 output neurons"},
+  {"id": 28, "question": "What sensitivity and specificity did that neural network system report?", "answerable": true, "paper": "HDPS", "keywords": ["85% sensitivity and 70% specificity"], "reference": "About 85% sensitivity and 70% specificity (accuracy near 80%)"},
+  {"id": 29, "question": "How many times was the random train and test procedure repeated to average the performance numbers?", "answerable": true, "paper": "HDPS", "keywords": ["repeated for 100 times"], "reference": "100 times"},
+
+  {"id": 30, "question": "After discarding incomplete records, how many patient records remained in the hybrid random forest with linear model study?", "answerable": true, "paper": "Hybrid_Machine_Learning_Techniques", "keywords": ["297 patient records"], "reference": "297 records (6 with missing values were removed)"},
+  {"id": 31, "question": "What accuracy level does the hybrid random forest with a linear model reach?", "answerable": true, "paper": "Hybrid_Machine_Learning_Techniques", "keywords": ["88.7%"], "reference": "88.7%"},
+  {"id": 32, "question": "Which software environment did these authors use to run the heart disease classification?", "answerable": true, "paper": "Hybrid_Machine_Learning_Techniques", "keywords": ["R studio rattle"], "reference": "R Studio Rattle"},
+
+  {"id": 33, "question": "How were the 909 Cleveland records divided between training and testing in the prototype built on the .NET platform?", "answerable": true, "paper": "Intelligent_heart_disease_prediction", "keywords": ["455 records"], "reference": "455 training records and 454 testing records"},
+  {"id": 34, "question": "Which standard process methodology did that prototype follow to build its mining models?", "answerable": true, "paper": "Intelligent_heart_disease_prediction", "keywords": ["CRISP-DM methodology"], "reference": "CRISP-DM"},
+  {"id": 35, "question": "Which model made the largest share of correct predictions for patients who do have heart disease, and what was that share?", "answerable": true, "paper": "Intelligent_heart_disease_prediction", "keywords": ["86.53%"], "reference": "Naive Bayes, 86.53%"},
+
+  {"id": 36, "question": "Which of the three algorithms was the most accurate in the logistic regression, KNN and random forest project, and by how much?", "answerable": true, "paper": "ML", "keywords": ["88.52%"], "reference": "KNN, 88.52%"},
+  {"id": 37, "question": "In its conclusion, what overall accuracy do the authors of that project state for their model?", "answerable": true, "paper": "ML", "keywords": ["87.5%"], "reference": "87.5% (the paper separately reports KNN at 88.52%)"},
+  {"id": 38, "question": "According to the final figure of that project, what proportion of the people in the dataset have heart disease?", "answerable": true, "paper": "ML", "keywords": ["44% of people"], "reference": "44%"},
+
+  {"id": 39, "question": "How many features were kept after univariate selection in the study of hybrid models for US clinical decision support?", "answerable": true, "paper": "Performance_Evaluation", "keywords": ["eight highly informative", "eight most informative"], "reference": "Eight features"},
+  {"id": 40, "question": "Which model scored best in that US-focused study, and what test accuracy did it reach?", "answerable": true, "paper": "Performance_Evaluation", "keywords": ["98.31%"], "reference": "Random Forest, 98.31%"},
+  {"id": 41, "question": "What ratio was used to split the data into training and test sets in that study?", "answerable": true, "paper": "Performance_Evaluation", "keywords": ["70:30 train"], "reference": "70:30"},
+
+  {"id": 42, "question": "Which model had the highest cross-validated accuracy in the five-algorithm comparison on 920 merged records?", "answerable": true, "paper": "prediction using AI", "keywords": ["82.5%"], "reference": "SVM with an RBF kernel, 82.5% plus or minus 2.8%"},
+  {"id": 43, "question": "How many features did the 920-record comparison end up with after one-hot encoding?", "answerable": true, "paper": "prediction using AI", "keywords": ["total of 27", "after one-hot encoding 27"], "reference": "27 features"},
+  {"id": 44, "question": "How many records went to training and how many to testing in the stratified split of that comparison?", "answerable": true, "paper": "prediction using AI", "keywords": ["736 training"], "reference": "736 training and 184 test records"},
+
+  {"id": 45, "question": "What learning rate was used to fine-tune a BERT model for classifying heart disease clinical notes?", "answerable": false, "reference": ""},
+  {"id": 46, "question": "How many patients were enrolled in the prospective hospital trial that tested the prediction system?", "answerable": false, "reference": ""},
+  {"id": 47, "question": "What accuracy did a LightGBM model achieve on the MIMIC-III database?", "answerable": false, "reference": ""},
+  {"id": 48, "question": "Which ICD-10 code range covers ischaemic heart diseases?", "answerable": false, "reference": ""}
 ]
